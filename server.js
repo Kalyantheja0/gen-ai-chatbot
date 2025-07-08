@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
-const { OpenAI } = require("openai"); // ✅ FIXED LINE HERE
+const { OpenAI } = require("openai");
 
 dotenv.config();
 
